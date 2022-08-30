@@ -5,6 +5,7 @@ import { Provider as PaperProvider } from "react-native-paper";
 import { StyleSheet } from "react-native";
 import Login from "./src/screens/Login";
 import Home from "./src/screens/Home";
+import Averages from "./src/screens/Averages";
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,8 @@ export default function App() {
             {isLoggedIn ? (
               <Stack.Group>
                 <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="Averages" component={Averages} />
+
               </Stack.Group>
             ) : (
               <Stack.Screen name="Login" component={Login} />
