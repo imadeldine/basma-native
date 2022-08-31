@@ -1,3 +1,3 @@
-const URL = "https://acf4-212-98-147-6.eu.ngrok.io/api/";
+const URL = "https://glacial-savannah-12195.herokuapp.com/api/";
 
 export default URL;
